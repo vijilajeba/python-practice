@@ -1,9 +1,22 @@
 # Python Practice
 
-Daily Python practice as I learn programming, working toward a data analytics internship.
+A collection of beginner-friendly Python projects created to practice programming fundamentals and problem-solving.
 
 ## Projects
 
-- **mini.py** — Shopping list calculator (calculates subtotal and total cost per item)
-- **passfailcounter.py** — Counts how many students passed/failed based on marks
-- **gradetracker.py** — Assigns grades (A/B/C/F) based on marks and finds the topper
+- Student Attendance Tracker
+- Movie Ticket Booking System
+- Word Frequency Counter
+- Grade Tracker
+- Pass/Fail Counter
+- Shopping List Total Calculator
+
+## Skills Practiced
+
+- Python
+- Variables and Data Types
+- Conditional Statements
+- Loops
+- Lists and Sets
+- User Input
+- Basic Problem Solving
