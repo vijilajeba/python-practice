@@ -1,0 +1,28 @@
+WEEK 3 ASSIGNMENT: PYTHON & DATA WRANGLING
+
+Dataset
+- Original file: data.csv
+- Original rows: 32
+- Columns: Duration, Date, Pulse, Maxpulse, Calories
+
+Cleaning steps
+1. Standardized date formatting and converted Date to a datetime value.
+2. Removed 1 duplicate row.
+3. Filled the missing date using the daily sequence (inferred as 2020-12-22).
+4. Filled 2 missing Calories values with the median Calories value.
+5. Filtered 1 record with Duration above 120 minutes as a likely data-entry error.
+6. Filtered 1 record where Pulse was greater than Maxpulse, which is inconsistent in this dataset.
+7. Created Calories_Per_Minute = Calories / Duration.
+8. Created Intensity based on Pulse: Low (<100), Moderate (100–109), High (110 or more).
+
+Final result
+- Cleaned rows: 29
+- Columns: Duration, Date, Pulse, Maxpulse, Calories, Calories_Per_Minute, Intensity
+- Missing values remaining: 0
+
+Visualizations
+- Calories burned over time (Matplotlib line chart)
+- Pulse distribution (histogram)
+
+Important note
+The date 2020-12-22 is inferred from the surrounding daily dates. Duration=450 and Pulse>Maxpulse are treated as suspicious records and filtered, not corrected. In a real analysis, confirm these assumptions with the data owner before final reporting.
